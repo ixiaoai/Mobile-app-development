@@ -1,0 +1,7 @@
+{
+  "name": "getMonthLedgers",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}
