@@ -1,0 +1,102 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path" : "pages/fb/fb",
+			"style" : 
+			{
+				"navigationBarTitleText" : "发布",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/my/my",
+			"style" : 
+			{
+				"navigationStyle": "custom",
+				"navigationBarTitleText" : "我的",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/login/login",
+			"style" : 
+			{
+				"navigationStyle": "custom",
+				"navigationBarTitleText" : "",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/zdList/zdList",
+			"style" : 
+			{
+				"navigationBarTitleText" : "账单列表",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/xq/xq",
+			"style" : 
+			{
+				"navigationBarTitleText" : "详情",
+				"enablePullDownRefresh" : false
+			}
+		},
+		{
+			"path" : "pages/my/info/info",
+			"style" : 
+			{
+				"navigationBarTitleText" : "我的资料"
+			}
+		},
+		{
+			"path" : "pages/my/statistics/statistics",
+			"style" : 
+			{
+				"navigationBarTitleText" : "统计账单"
+			}
+		}
+	],
+	"tabBar": {
+		"selectedColor": "#01BEFF",
+		"backgroundColor": "#fff",
+		"borderStyle": "#e6e6e6",
+		"list": [
+			{
+				"iconPath": "static/img/home.png",
+				"selectedIconPath": "static/img/home-act.png",
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			},
+			{
+				"iconPath": "static/img/fb.png",
+				"selectedIconPath": "static/img/fb-act.png",
+				"pagePath": "pages/fb/fb",
+				"text": "发布"
+			},
+			{
+				"iconPath": "static/img/my.png",
+				"selectedIconPath": "static/img/my-act.png",
+				"pagePath": "pages/my/my",
+				"text": "我的"
+			}
+		]
+	},
+	"easycom": {
+	  	"^tn-(.*)": "@/tuniao-ui/components/tn-$1/tn-$1.vue"
+	  },
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
